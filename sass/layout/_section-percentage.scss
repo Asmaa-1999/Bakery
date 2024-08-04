@@ -1,0 +1,21 @@
+.percentage
+{
+    background-image: url(../../images/pattern-1.jpg);
+    background-position:100% 100%;
+    background-size:cover cover ;
+    padding: 7%;
+    position: relative;
+
+    &__layer
+    {
+        padding:7%;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top:0%;
+        bottom: 0%;
+        @include display-flex();
+        gap: 5%;
+        background-color: rgba(220, 153, 77, 0.9);
+    }
+}

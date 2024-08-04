@@ -1,0 +1,112 @@
+.card--font {
+  text-transform: capitalize;
+  color: #555555;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card__content--font {
+  color: #696969;
+  font-size: 13px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+}
+
+.card__content__price--font {
+  color: #ebb576;
+  font-size: 16px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.title--font {
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+}
+
+.btn--font {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #555555;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.offer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+}
+.offer__button {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card {
+  display: flex;
+  width: 50%;
+  padding: 0 15px;
+}
+.card img {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 130px;
+  height: 130px;
+}
+.card p {
+  line-height: 24px;
+}
+.card__price {
+  color: #ebb576;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  position: relative;
+}
+.title::before {
+  content: "";
+  background-color: #ddd;
+  height: 2px;
+  width: 150px;
+  position: absolute;
+  bottom: -12px;
+}
+.title::after {
+  content: "";
+  background-color: #ebb576;
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  bottom: -12px;
+}
+
+.btn {
+  border: 2px solid #555555;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.btn:hover {
+  color: white;
+  background-color: #555555;
+  transition: 0.3s all ease-in-out;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+.input-form {
+  width: 48%;
+  padding: 0.7%;
+  border: 0.5px solid #dadada !important;
+  margin-top: 10px;
+
+  &:focus {
+    border-color:$titles-color;
+    outline: 0;
+  }
+}
+.input--width-100 {
+  width: 99%;
+  resize: none;
+}

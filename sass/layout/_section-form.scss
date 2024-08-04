@@ -1,0 +1,11 @@
+.section-form {
+//   background-color: aqua;
+  p {
+    text-align: center;
+  }
+  .form{
+    @include display-flex();
+    flex-wrap: wrap;
+    
+  }
+}

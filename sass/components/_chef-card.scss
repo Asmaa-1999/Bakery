@@ -1,0 +1,59 @@
+.chefs__card {
+  padding: 3%;
+  @include display-flex();
+  flex-direction: column;
+  position: relative;
+  width: 24%;
+
+  .img1 {
+    background-image: url(../../images/team-2.jpg);
+  }
+  .img2 {
+    background-image: url(../../images/team-1.jpg);
+  }
+  .img3 {
+    background-image: url(../../images/team-3.jpg);
+  }
+  .img4 {
+    background-image: url(../../images/team-4.jpg);
+  }
+  &_img {
+    // background-image: url(../../images/team-2.jpg);
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin-bottom: 7%;
+    &_icons {
+      background-color: rgba($color: #000000, $alpha: 0.4);
+      border-radius: 50%;
+      width: 220px;
+      height: 220px;
+      @include display-flex();
+      opacity: 0;
+      .footer-btn-icon {
+        background-color: $dash-color !important;
+        a {
+          color: $btn-color;
+        }
+
+        &:hover {
+          background-color: $main-color !important;
+        }
+        &:hover i {
+          color: $white-color;
+        }
+      }
+    }
+  }
+  &:hover &_img_icons {
+    opacity: 1;
+  }
+  p {
+    line-height: 24px;
+  }
+  &:hover img {
+    @include eleHover();
+  }
+}

@@ -1,0 +1,28 @@
+.btn {
+    @extend %btn;
+    &:hover{
+        @include eleHover()
+    }
+}
+.links-btn {
+    border: none;
+    @extend %btn;
+    &:hover{
+        @include eleHover($main-color,$white-color)
+    }
+}
+.btn--color-orange
+{
+    @extend %btn;
+    &:hover{
+        @include eleHover($main-color,$white-color,$main-color)
+    }
+}
+.btn--color-orange
+{
+    @extend %btn-orang;
+    color: $white-color;
+    &:hover{
+        @include eleHover($main-color,$white-color,$main-color)
+    }
+}

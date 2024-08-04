@@ -1,0 +1,23 @@
+.services__card-item{
+    @include display-flex();
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    .container-img {
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        margin-bottom: 7%;
+        background-color:$main-color;
+        @include display-flex();
+        img{
+            width:50%;
+        }
+    }
+    p{
+        line-height: 24px;
+    }
+    &-hover:hover .container-img{
+        @include eleHover();
+    }
+}

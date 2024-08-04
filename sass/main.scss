@@ -1,0 +1,30 @@
+@import "abstract/variables";
+@import "abstract/mixin";
+@import "abstract/placeholders";
+
+@import "base/typography";
+@import "base/reset";
+
+@import "layout/offer";
+@import "layout/navbar";
+@import "layout/grid-system";
+@import "layout/services";
+@import "layout/section-bakery";
+@import "layout/section-percentage";
+@import "layout/chefs";
+@import "layout/carousel";
+@import "layout/section-form";
+@import "layout/footer";
+
+@import "components/card";
+@import "components/title";
+@import "components/buttons";
+@import "components/carousel-btn";
+@import "components/services-card";
+@import "components/percentage-card";
+@import "components/chef-card";
+@import "components/carousel-card";
+@import "components/input-form";
+@import "components/btn-footer";
+
+@import "pages/home";

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<!-- <body class="container"> -->
+
+<body class="">
+
+    <nav class="navbar">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <img src="images/bakery-catalog-logo-dark-2.png">
+            </div>
+            <ul class="nav__links">
+                <li><a class="links-btn  btn--font" href="">HOME</a></li>
+                <li><a class="links-btn  btn--font" href="">ABOUT US</a></li>
+                <li><a class="links-btn  btn--font" href="">PRODUCTS</a></li>
+                <li><a class="links-btn  btn--font" href="">FEATURES</a></li>
+                <li><a class="links-btn  btn--font" href="">BLOG</a></li>
+                <li><a class="links-btn  btn--font" href="">CONTACT</a></li>
+                <li><a class="btn--color-orange btn--font" href="">ORDER ONLINE</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="section carousel slide position-relative">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active carousel_btn" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+                class="carousel_btn"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+                class="carousel_btn"></button>
+        </div>
+        <div class="carousel-inner" style="max-height:500px !important;">
+            <div class="carousel-item active">
+                <img src="images/slide-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption always-visible">
+                    <div class="">
+                        <h3 class="title--font">welcome to</h3>
+                    </div>
+                    <h2 class="p-2">BAKERY CATALOG DEMO</h2>
+                    <p class="service__card__content--font">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cumque magnam aut harum veniam!
+                        Suscipit, exercitationem placeat. Doloremque dolore corrupti quaerat.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <!-- Add content here if needed -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block">
+                    <!-- Add content here if needed -->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev carousel_btn-prev-next" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel_btn-prev-next" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="section services container" id="services">
+        <div class="title">
+            <h2 class="title--font">MAIN SERVICES WE PROVIDE</h2>
+        </div>
+        <p class="service__card__content--font">
+            Our services are the best in town, we provide great quality baked products
+        </p>
+        <div class="services__cards">
+            <div class="services__card-item">
+                <div class="services__card-item-hover">
+                    <div class="container-img">
+                        <img src="images/icons8-chef-64.png">
+                    </div>
+                    <h3 class="card--font">TOP CHEFS</h3>
+                </div>
+                <p class="service__card__content--font">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="services__card-item">
+                <div class="services__card-item-hover">
+                    <div class="container-img">
+                        <img src="images/icons8-croissant-64.png">
+                    </div>
+                    <h3 class="card--font">TOP CHEFS</h3>
+                </div>
+                <p class="service__card__content--font">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="services__card-item">
+                <div class="services__card-item-hover">
+                    <div class="container-img">
+                        <img src="images/icons8-merry-pie-64.png">
+                    </div>
+                    <h3 class="card--font">TOP CHEFS</h3>
+                </div>
+                <p class="service__card__content--font">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="services__card-item">
+                <div class="services__card-item-hover">
+                    <div class="container-img">
+                        <img src="images/icons8-restaurant-80.png">
+                    </div>
+                    <h3 class="card--font">TOP CHEFS</h3>
+                </div>
+                <p class="service__card__content--font">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum
+                    dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section bakery">
+        <div class="bakery__img">
+            <img src="images/img-6.jpg">
+        </div>
+        <div class="bakery__content">
+            <div class="title">
+                <h2 class="title--font">OUR BAKERY</h2>
+            </div>
+            <p class="service__card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.</p>
+            <p class="service__card__content--font">
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt., neque porro quisquam est, qui dolorem ipsum quia
+                dolor sit amet. </p>
+            <p class="service__card__content--font">
+                Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                aliquam quaerat voluptatem.</p>
+            <div class="bakery__button">
+                <a class="btn--color-orange btn--font" href="">READ MORE</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section offer container">
+        <div class="title">
+            <h2 class="title--font">what we offer for you</h2>
+        </div>
+        <div class="offer_links">
+            <a class="links-btn link--font" href="">All</a>
+            <span>.</span>
+
+            <a class="links-btn link--font" href="">Breads</a>
+            <span>.</span>
+
+            <a class="links-btn  link--font" href="">Cakes</a>
+            <span>.</span>
+
+            <a class="links-btn  link--font" href="">Cookies</a>
+            <span>.</span>
+
+            <a class="links-btn  link--font" href="">Pastries</a>
+            <span>.</span>
+
+            <a class="links-btn  link--font" href="">Muffins</a>
+
+        </div>
+
+
+        <div class="offer__cards">
+            <div class="card">
+                <img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/product-6-150x150.jpg"
+                    alt="sourdough">
+                <div class="card__content">
+                    <h3 class="card--font">sourdough</h3>
+                    <p class="card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                    </p>
+                    <p class="card__price card__content__price--font">$ 3.99 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/product-6-150x150.jpg"
+                    alt="sourdough">
+                <div>
+                    <h3 class="card--font">sourdough</h3>
+                    <p class="card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                    </p>
+                    <p class="card__price card__content__price--font">$ 3.99 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/product-6-150x150.jpg"
+                    alt="sourdough">
+                <div>
+                    <h3 class="card--font">sourdough</h3>
+                    <p class="card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                    </p>
+                    <p class="card__price card__content__price--font">$ 3.99 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/product-6-150x150.jpg"
+                    alt="sourdough">
+                <div>
+                    <h3 class="card--font">sourdough</h3>
+                    <p class="card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                    </p>
+                    <p class="card__price card__content__price--font">$ 3.99 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/product-6-150x150.jpg"
+                    alt="sourdough">
+                <div>
+                    <h3 class="card--font">sourdough</h3>
+                    <p class="card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                    </p>
+                    <p class="card__price card__content__price--font">$ 3.99 </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/product-6-150x150.jpg"
+                    alt="sourdough">
+                <div>
+                    <h3 class="card--font">sourdough</h3>
+                    <p class="card__content--font">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium.
+                    </p>
+                    <p class="card__price card__content__price--font">$ 3.99 </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer__button">
+            <a class="btn btn--font" href="">view all products</a>
+        </div>
+    </section>
+
+    <section class="section percentage">
+        <div class="percentage__layer ">
+            <div class="percentage-card">
+                <span class="percent--font">9750 +</span>
+                <div class="line"></div>
+                <p class="percent--font--text">Happy Customers</p>
+            </div>
+            <div class="percentage-card">
+                <span class="percent--font">2800</span>
+                <div class="line"></div>
+                <p class="percent--font--text">Cooked dishes
+
+                </p>
+            </div>
+            <div class="percentage-card">
+                <span class="percent--font">5000 +</span>
+                <div class="line"></div>
+                <p class="percent--font--text">Social Media Fans
+                </p>
+            </div>
+            <div class="percentage-card">
+                <span class="percent--font">6030 +</span>
+                <div class="line"></div>
+                <p class="percent--font--text">Worked Hours</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container chefs">
+        <div class="title">
+            <h2 class="title--font">MEET OUR CHEFS</h2>
+        </div>
+        <p class="service__card__content--font">Main core of our company is our staff </p>
+        <div class="chefs__content">
+            <div class="chefs__card">
+                <div class="chefs__card_img img1">
+                    <div class="icons chefs__card_img_icons">
+                        <div class="footer-btn-icon">
+                            <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="images/team-1.jpg"> -->
+                <div>
+                    <h3 class="card--font">MIKKIE RURK</h3>
+                    <p class="card__content--font">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="chefs__card">
+                <div class="chefs__card_img img2">
+                    <div class="icons chefs__card_img_icons">
+                        <div class="footer-btn-icon">
+                            <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="images/team-2.jpg"> -->
+                <div>
+                    <h3 class="card--font">SARAH PIERSON</h3>
+                    <p class="card__content--font">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="chefs__card">
+                <div class="chefs__card_img img3">
+                    <div class="icons chefs__card_img_icons">
+                        <div class="footer-btn-icon">
+                            <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="images/team-3.jpg"> -->
+                <div>
+                    <h3 class="card--font">BRANDON RAZER</h3>
+                    <p class="card__content--font">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="chefs__card">
+                <div class="chefs__card_img img4">
+                    <div class="icons chefs__card_img_icons">
+                        <div class="footer-btn-icon">
+                            <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="footer-btn-icon">
+                            <a href="https://www.linkedin.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="images/team-4.jpg"> -->
+                <div>
+                    <h3 class="card--font">MORGAN DUTCH</h3>
+                    <p class="card__content--font">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <div id="carouselExample" class="section carousel slide">
+        <div id="carouselExample_layer">
+
+
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active carousel_btn"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"
+                    class="carousel_btn"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"
+                    class="carousel_btn"></button>
+            </div>
+
+            <div class="carousel-inner" style="max-height:600px!important;width: 100%!important;">
+                <div class="carousel-item carousel-item-card active">
+                    <div class="carousel-item-card_img">
+                        <img src="images/testimonial-2-180x180.jpg" class="d-block" alt="...">
+                    </div>
+                    <p>We just wanted to thank you for the beautiful cake you created for our wedding. It was simply
+                        delicious and meticulously decorated. You made the process easy, and put us at ease. You are a
+                        true
+                        professional and a talented baker and we are forever thankful for helping our dream wedding come
+                        true.</p>
+                    <div class="line"></div>
+                    <h4 class="card__price card__content__price--font">Richard Brooke</h4>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <section class="section container section-form">
+        <div class="title">
+            <h2 class="title--font">ORDER NOW</h2>
+        </div>
+        <p class="service__card__content--font">
+            Use this form to submit a request for order our fresh bakery products
+        </p>
+
+        <div class="form">
+            <input type="text" name="name" value="" placeholder=" Name *" class="input-form">
+            <input type="text" name="email" value="" placeholder=" Email *" class="input-form">
+            <input type="text" name="phone" value="" placeholder=" Phone *" class="input-form">
+            <input type="text" name="address" value="" placeholder=" Address *" class="input-form">
+            <input type="text" name="data" value="" placeholder=" Date *" class="input-form">
+            <input type="text" name="name" value="" placeholder=" Time *" class="input-form">
+            <input type="text" name="name" value="" placeholder=" Time *" class="input-form">
+            <input type="text" name="name" value="" placeholder=" Time *" class="input-form">
+            <input type="text" name="name" value="" placeholder=" Sected products*" class="input-form input--width-100">
+            <textarea name="message" cols="40" rows="3" class="input-form input--width-100"
+                placeholder="Futher details"></textarea>
+            <div class="bakery__button mt-5">
+                <a class="btn--color-orange btn--font" href="">PLACE ORDER</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_layer">
+            <div class="footer-content">
+                <div class="icons">
+                    <div class="footer-btn-icon">
+                        <a href="https://web.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="footer-btn-icon">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="footer-btn-icon">
+                        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="footer-btn-icon">
+                        <a href="" target="_blank"><i class="fa-solid fa-map"></i></a>
+                    </div>
+                    <div class="footer-btn-icon">
+                        <a href="" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+
+                </div>
+                <img src="images/bakery-catalog-logo-light-2.png" alt="">
+                <p> Address: 60 Wall Street, New York, NY 10018 US <span> | </span> Phone: (708) 123-4567 <span> |
+                    </span> Opening Hours: Mon – Sat:
+                    8:00 – 20:00
+                </p>
+                <span>Copyright © 2015-2018 Bakery WordPress Theme by Milingona.
+                </span>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

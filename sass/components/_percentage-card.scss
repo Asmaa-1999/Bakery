@@ -1,0 +1,14 @@
+.percentage-card
+{
+    @include display-flex();
+    flex-direction: column;
+    width: 23%;
+    text-align: center;
+    .line
+    {
+        @extend %line;
+    }
+    p{
+        margin-top: 4%;
+    }
+}

@@ -1,0 +1,8 @@
+.services{
+    text-align: center;
+    &__cards
+    {
+        padding-top: 4%;
+        @include display-flex();
+    }
+}

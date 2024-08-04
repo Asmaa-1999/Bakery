@@ -1,0 +1,45 @@
+.carousel_btn
+{
+border-radius:50% !important;
+width:13px  !important;
+height:13px  !important;
+border-color: none  !important;
+// &:hover{
+//     @include btnHover()
+// }
+}
+.carousel_btn-prev-next
+{
+margin: 0px 2%;
+border-radius:50% !important;
+width:50px  !important;
+height:50px  !important;
+border: 2px solid $white-color;
+position: absolute;
+top:50%;
+// &:hover{
+//     @include btnHover($main-color,$white-color)
+// }
+}
+.carousel-item-card
+{
+
+        text-align: center !important;
+        margin-bottom: 3%;
+        padding:5% 20%;
+        color: $white-color;
+        img{
+            border-radius: 50%;
+            margin-right: 20px;
+            width:1%;
+            height:1%;
+            margin-bottom: 2%
+        };
+        .line
+        {
+            @extend %line;
+            margin-bottom: 2%;
+            width: 7%;
+
+        }
+}

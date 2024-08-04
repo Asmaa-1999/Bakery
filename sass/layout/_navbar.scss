@@ -1,0 +1,26 @@
+.navbar{
+    @include display-flex();
+    padding: 1% 5%;
+    .nav__container
+    {
+        @include display-flex();
+        padding: 2%;
+    }
+    .nav__logo
+    {
+        width: 10%;
+       img{
+        width: 75%;
+       } 
+    }
+    .nav__links
+    {
+        width: 85%;
+        list-style: none;
+        @include display-flex();
+        li 
+        {
+            cursor: pointer;
+        }
+    }
+}

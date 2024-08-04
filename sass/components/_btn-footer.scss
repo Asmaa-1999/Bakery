@@ -1,0 +1,14 @@
+.footer-btn-icon {
+  background-color: $btn-color !important;
+  width: 45px;
+  height: 42px;
+  border-radius: 50%;
+  color: $white-color;
+  @include display-flex();
+  a {
+    color: $white-color;
+  }
+  &:hover i {
+    color: $main-color;
+  }
+}

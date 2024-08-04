@@ -1,0 +1,60 @@
+// mixin
+@mixin eleHover($color: $white-color, $bg-color: $btn-color,$b-color:$btn-color) {
+  color: $color;
+  background-color: $bg-color;
+  border-color:$b-color;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+@mixin btnHover($color:$main-color,$bg-color:$white-color) {
+  color: $color;
+  background-color:$bg-color;
+}
+
+@mixin font($color, $size, $family, $weight) {
+  color: $color;
+  font: {
+    size: $size;
+    family: $family, sans-serif;
+    weight: $weight;
+  }
+}
+@mixin after-before($color, $width){
+  content: '';
+  background-color: $color;
+  height: 2px;
+  width: $width;
+  position: absolute;
+  bottom: -12px;
+}
+@mixin display-flex()
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 3%;
+}
+
+@mixin breakPoint($points) {
+  @if ($points == "sm") {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  } @else if ($points == "md") {
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+      @content;
+    }
+  } @else if ($points == "lg") {
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+      @content;
+    }
+  } @else if ($points == "xl") {
+    @media screen and (min-width: 993px) and (max-width: 1200px) {
+      @content;
+    }
+  } @else {
+    @media screen and (min-width: 1201px) {
+      @content;
+    }
+  }
+}

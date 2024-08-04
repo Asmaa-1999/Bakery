@@ -1,0 +1,15 @@
+.chefs
+{
+    text-align: center;
+    &__content
+    {
+        @include display-flex();
+        padding-top: 4%;
+    }
+    &__card
+    {
+        background-color:$dash-color;
+    }
+    
+
+}
